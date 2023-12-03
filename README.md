@@ -19,7 +19,9 @@ Click 'OK' to close all dialogs.
 Open Command Prompt and type ffmpeg -version.  
 If FFmpeg is installed correctly, you should see the version information displayed.
 
-Before you can use the program, you need an API key for Google's TTS API as ".json" file.  
+# Other prerequisites
+
+You need an API key for Google's TTS API as ".json" file.  
 Put this .json file wherever you want on your computer, then navigate to the environment variables  (see above)  
 and add an entry to your system environment variables that looks like this:  
 name: GOOGLE_APPLICATION_CREDENTIALS  
